@@ -14,10 +14,12 @@
   outline: none;
   font-family: $primary-font;
   font-weight: 100;
+  margin: 0 auto;
 
   &--primary {
     color: $text-color;
     background-color: $primary-color;
+    border: none;
     padding: 12px 24px;
 
     &:hover {

@@ -1,5 +1,7 @@
-.generator{
-  border: 1px solid rgba($text-color, 0.25);
+.generator {
+  background: #20221bad 0% 0% no-repeat padding-box;
+  backdrop-filter: blur(26px);
+  -webkit-backdrop-filter: blur(26px);
   padding: 50px;
   position: absolute;
   top: 50%;
@@ -7,28 +9,78 @@
   left: 0;
   right: 0;
   margin: 0 auto;
-  overflow-y: scroll;
-  overflow-x: hidden;
   width: 500px;
-  height: 70vh;
+  height: auto;
+  min-height: 500px;
+  max-height: 80vh;
   border-radius: 5px;
+  @media only screen and (max-width: 530px){
+    width: 95%;
+  }
 
-  &__start{
+  &__start {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
     right: 0;
     margin: 0 auto;
+    &--active{
+      bottom: -20px;
+      top: initial;
+      transform: initial;
+    }
   }
 }
 
 // Cocktail result
-.cocktail{
-  h1, h2{
+.cocktail {
+  margin-top: 40px;
+  text-align: center;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  max-height: 500px;
+  h1, h2 {
     text-align: center;
   }
-  h2{
+
+  h2 {
     margin-bottom: 10px;
+  }
+
+  h1{
+    margin-bottom: 40px;
+  }
+
+  p{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  &__image{
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: -64px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &__method {
+    &__ingredients{
+      width: 100%;
+      li{
+        border-bottom: 1px solid rgba($text-color, 0.2);
+        padding: 15px 0;
+        p{
+          margin: 0;
+        }
+      }
+    }
   }
 }
