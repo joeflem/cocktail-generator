@@ -1,24 +1,23 @@
-# cocktailgenerator
+# Cocktail Generator
+Status: In Progress 🙌
+Type: Readme
 
-## Project setup
-```
-yarn install
-```
+A simple cocktail generator built to play around with Vue.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Features
 
-### Compiles and minifies for production
-```
-yarn build
-```
+* Generates random cocktail provided by [https://www.thecocktaildb.com/](https://www.thecocktaildb.com/) and displays in a simple, modern UI.
+* Custom loading icon (SVGs from Flaticon)
+* Sass
+* Vue Router
+* Babel
+* ESLint
+* Auto deployment via Netlify (WIP)
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Credits
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Recipes
+Recipes and random cocktail API provided by [The Cocktail DB](https://www.thecocktaildb.com/)
+
+### Icons
+Cocktail icons from [itim2101](https://www.flaticon.com/authors/itim2101) & [Freepik](https://www.flaticon.com/authors/freepik)
