@@ -1,0 +1,36 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  padding: 12px 24px;
+  transition: $default-transition;
+
+  &--primary {
+    color: $text-color;
+    background-color: $primary-color;
+    padding: 12px 24px;
+
+    &:hover {
+      background-color: darken($primary-color, 15%);
+    }
+  }
+
+  &--secondary {
+    color: $primary-color;
+    background-color: transparent;
+    border: 1px solid $primary-color;
+    padding: 12px 24px;
+
+    &:hover {
+      background-color: $primary-color;
+      color: $text-color;
+    }
+  }
+}
+
+
+

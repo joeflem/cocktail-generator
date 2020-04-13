@@ -1,0 +1,15 @@
+.generator{
+  border: 1px solid rgba($text-color, 0.4);
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 500px;
+  height: 70vh;
+  border-radius: 5px;
+}

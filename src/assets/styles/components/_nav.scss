@@ -1,0 +1,18 @@
+.nav {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  display: flex;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+
+  a {
+    color: rgba($text-color, 0.5);
+    transition: $default-transition;
+    margin-right: 10px;
+    &:hover{
+      color: #fff;
+    }
+  }
+}
