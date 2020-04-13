@@ -1,5 +1,6 @@
 # Cocktail Generator
 Status: In Progress 🙌
+
 Type: Readme
 
 A simple cocktail generator built to play around with Vue.
