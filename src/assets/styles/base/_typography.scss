@@ -2,12 +2,17 @@
 
 h1 {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 200;
+  font-family: $secondary-font;
 }
 
 h2 {
-  font-size: 28px;
-  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-family: $primary-font;
+  text-transform: uppercase;
+  font-weight: 100;
+  opacity: 0.5;
 }
 
 h3 {

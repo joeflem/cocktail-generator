@@ -5,9 +5,15 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 12px;
+  font-size: 11px;
   padding: 12px 24px;
   transition: $default-transition;
+  border-radius: 100px;
+  cursor: pointer;
+  -webkit-appearance: none;
+  outline: none;
+  font-family: $primary-font;
+  font-weight: 100;
 
   &--primary {
     color: $text-color;
