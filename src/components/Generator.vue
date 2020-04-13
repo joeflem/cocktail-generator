@@ -38,6 +38,7 @@
                 this.loading = true;
 
                 // Get the random cocktail
+                // Cocktails provided by https://www.thecocktaildb.com
                 axios.get('https://www.thecocktaildb.com/api/json/v1/1/random.php').then(function (response) {
                     setTimeout(function () {
                         this.drink = response.data.drinks[0];
