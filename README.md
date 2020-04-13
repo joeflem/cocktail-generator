@@ -22,3 +22,6 @@ Recipes and random cocktail API provided by [The Cocktail DB](https://www.thecoc
 
 ### Icons
 Cocktail icons from [itim2101](https://www.flaticon.com/authors/itim2101) & [Freepik](https://www.flaticon.com/authors/freepik)
+
+### Images
+Cocktail background - [azerbaijan_stockers] (https://www.freepik.com/azerbaijan-stockers)
